@@ -45,6 +45,10 @@ public abstract class ATabsTabLayoutFragment<T extends TabItem> extends ATabsFra
         }, 150);
     }
 
+    protected void setupTabLayout(Bundle savedInstanceSate) {
+        super.setupViewPager(savedInstanceSate);
+    }
+
     public TabLayout getTablayout() {
         return mTabLayout;
     }

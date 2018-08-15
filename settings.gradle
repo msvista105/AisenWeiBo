@@ -1,1 +1,2 @@
-include ':app', ':datetimerpicker'
+include ':app', ':datetimerpicker', ':library_aisen'
+project(':library_aisen').projectDir = new File('library')
